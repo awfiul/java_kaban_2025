@@ -1,0 +1,28 @@
+package hw;
+
+class DataHolder {
+
+    int x;
+    int y;
+    int z;
+    int flag;
+
+    public DataHolder() {
+        this(0, 0, 0);
+    }
+
+    public DataHolder(int x) {
+        this(x, 0, 0);
+    }
+
+    public DataHolder(int x, int y) {
+        this(x, y, 0);
+    }
+
+    public DataHolder(int x, int y, int z) {
+        this.x = x;
+        this.y = y;
+        this.z = z;
+        this.flag = 1;
+    }
+}
